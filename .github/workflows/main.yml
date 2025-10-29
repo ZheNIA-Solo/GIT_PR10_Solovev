@@ -1,0 +1,12 @@
+name: MyAction
+on: push
+
+jobs:
+  Job1:
+    runs-on: windows-latest
+    steps:
+    - name: step1
+      run: echo "Hello, world!!"
+
+    - name: step2
+      run: dotnet --info
