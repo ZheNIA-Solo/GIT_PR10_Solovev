@@ -1,2 +1,2 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿DateTime now = DateTime.Now;
+Console.WriteLine(now.ToString());
